@@ -1,0 +1,19 @@
+# Project-specific exclusions
+# Local keys and generated files
+.pi-hmac-key/
+*.pi-hmac-key
+
+# Test fixtures and temporary files
+fake-api-key.txt
+notes.txt
+
+# Standard build outputs
+node_modules/
+dist/
+coverage/
+*.log
+*.tmp
+*.temp
+
+# Environment files containing secrets
+.env
