@@ -17,3 +17,7 @@ coverage/
 
 # Environment files containing secrets
 .env
+
+# Secret catalogs and allowlists (never commit)
+secrets-allowlist.json
+secrets-catalog.json
