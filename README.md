@@ -22,6 +22,8 @@ When working with terminal AI coding agents, sensitive information—such as dat
 
 **Context Snooper** acts as a local security boundary. It inspects the agent's active context window, identifies potential secrets through a combination of exact catalog matching, pattern matching, and Shannon entropy analysis, and gives developers full interactive control over what is protected versus what is allowed.
 
+> **Important Security Note**: Context Snooper is designed as a **last layer of defense**, not a fail-proof solution. It should never substitute for safe credentials handling practices such as using environment variables, secret managers, or least-privilege access controls. Always treat this extension as an additional safety net rather than your primary security mechanism.
+
 ---
 
 ## 2. Goals
